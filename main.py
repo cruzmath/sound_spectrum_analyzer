@@ -57,3 +57,4 @@ while True:
   samples, f_real = read_samples()
   fft_result = calcular_fft(samples)
   display_spectrum(fft_result, f_real)
+  time.sleep_us(10) # Delay para dar tempo de atualizar o display e um valor não plotar sobre o outro
